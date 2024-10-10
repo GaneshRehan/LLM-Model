@@ -1,0 +1,5 @@
+print("Hello! I am a discovery chatbot to assist you with your table bookings")
+print("User: I want to book a table for 5 in a budget of 10 thousand")
+print("Chatbot: What is your preferred cusine and when do you want to book it?")
+print("User: I want to book it for day after tomorrow, for indian cusine")
+print("""Chatbot: SELECT * FROM restaurants WHERE cuisine = 'Indian' AND budget <= 5000 AND number_of_tables >= 1 ORDER BY rating DESC;""")
